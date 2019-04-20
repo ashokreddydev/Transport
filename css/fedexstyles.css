@@ -1,0 +1,494 @@
+@font-face {
+  font-family: 'AvenirNextLTPro-It';
+  src: url('/fonts/AvenirNextLTPro-Bold.otf'); /* IE9 Compat Modes */
+  src: url('/fonts/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/AvenirNextLTPro-Bold.otf') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/AvenirNextLTPro-Bold.otf') format('woff'), /* Pretty Modern Browsers */
+       url('/fonts/AvenirNextLTPro-Bold.otf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+.closebtn{
+  color: #fff;
+    position: absolute;
+    top: 15px;
+    right: 40px;
+}
+body{font-family: 'Avenir Next LT Pro';}
+footer{margin-top: 50px;}
+.username{
+  position: absolute;
+  top: 23px;
+  right: 48px;
+  width: 155px;
+  height: 35px!important;
+}
+.selectbck1{
+  background: #fff;
+  border:none;
+  color:gray;
+  box-shadow:none;border-radius: 22px; padding: 0 5px;
+}
+.fulltm{padding-top: 25px}
+.navsmalldot {
+  width: 14px;
+  height: 14px;
+  border-radius: 20px;
+  background: #fff;
+  position: absolute;
+  top: 10px;
+  right: 27px;
+}
+.logostyles{margin-left: 4vh;}
+::placeholder {
+  color: #B4B9CB!important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #B4B9CB!important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #B4B9CB!important;
+}
+.rightsideicon{top: 10px;
+  width: 40px;
+  position:absolute;
+  left: -2px;
+  top: 12vh
+}
+p{color: #697397}
+.go {
+  background: #48DA93;
+  border: none;
+  border-radius: 30px;
+  padding: 3px 30px;
+  font-size: 13px;
+  font-weight: 600;
+}
+body{background: #FAFAFC}
+.dropdown-toggle::after{color: #48DA93;}
+.navdot{width: 20px; height: 20px; background: #fff; border-radius: 10px; margin-right: 5px;float:left}
+.navdot1{width: 20px; height: 20px; background: #fff; margin-right: 5px;float:left}
+.dotcentre{padding-top: 20px}
+.localitiestext{color:#697397}
+.iconbox{padding: 15px 0}
+.roadicon{
+  position: absolute;
+top: 4px;
+right: 40px;
+width: 20px;
+height: 20px;
+}
+.nav-tabs{
+  border-bottom: none;
+}
+.nav-tabs .nav-link.active {
+color: #0C1C56;
+background-color: #eceef2;
+border-bottom: 3px solid #0D86FF;
+font-weight: 400;
+}
+.nav-tabs .nav-link {
+background: #ECEEF2;
+border-radius: 2px;
+color: #0C1C56;
+font-size: 16px;
+margin-right: 20px;
+font-weight: 400;
+
+}
+h5{color: #fff;}
+.fixed-top {
+  position: relative
+}
+
+body {
+  padding-top: 0px;
+}
+
+h5.bck {
+  background: #0C1C56;
+  font-size: 2vh;
+  color: #fff;
+  padding: 10px 0;
+  text-decoration: underline;
+  margin-bottom: 0px;
+  margin: 0px;
+}
+h2.bck{color:#48DA93; font-weight: bold}
+
+.bg-dark {
+  background-color: #0D86FF !important;
+  padding-bottom: 25px;
+  /* z-index: -9999; */
+}
+
+.dotbg{background: url('../images/bg.png'); margin:-2vh auto 0 auto; width: 95%; padding: 0 6vh;}
+.hdrimg {
+  background: url('../images/transport-header.png');
+  border-radius: 0px !important;
+  background-size: 100% 100%;
+  position: relative;
+  top: -34px;
+  z-index: 9999;
+  margin-bottom:0px!important;
+}
+
+.marlr {
+  margin-left: 0px;
+  margin-right: 0px;
+  background: #0C1C56
+}
+
+.arrowimg {
+  height: 100px;
+  background: url('images/dot1.png');
+}
+.arrowimgfooter {
+  height: 100px;
+  background: url('images/dot1.png');
+  margin: 5vh 0;
+}
+
+.modespara {
+  font-size: 14px;
+  color: #697397;
+}
+.modespara1 {
+  font-size: 14px;
+  color: #697397;
+}
+
+.road {
+  font-weight: bold;
+  font-size: 16px;
+  color: #0C1C56;
+  margin-bottom: 1px;
+}
+
+hr {
+  margin-top: 0rem;
+  border-top: 1px solid #7c85a4!important;
+}
+
+hr.margin{padding-bottom: 5px;}
+
+h6 {
+  font-size: 3.3vh;
+  color: #0C1C56;
+  font-weight: bold
+}
+.form-control{border:none; 
+  font-size: 14px; 
+  border-radius: 20px; 
+  text-align: center;     
+  height: calc(3rem + 0px);
+  background: #FAFAFC;
+  padding-left: 25px;
+}
+.bckmargin{background: #fff; margin-top: 7vh; padding: 20px; height: 315px;}
+.bckmargin_1{background: #fff; margin-top: 4vh; padding: 20px; }
+.bckmargin_2{background: #fff; margin-top: 1vh; padding: 20px; }
+.bckmargin_3{background: #fff; margin-top: 2vh; padding: 20px; margin-bottom: 7vh }
+.bckmargin1{margin-top: 2vh; padding: 20px; }
+.bluecircle1{background: #0D86FF; width:50px; height:50px; border-radius: 50%;    margin-left: 2vh; margin-top: 9px}
+.bluecircle2{background: #0D86FF; width:50px; height:50px; border-radius: 50%;     margin-top: 9px}
+.greencircle{background: #48DA93; width:60px; height:60px; border-radius: 50%;    }
+.search{background: #48DA93; border:none; border-radius:30px; padding: 6px 20px; font-size: 16px;}
+.inputtxt{font-size: 14px; }
+.dropdown{
+  background: #fff;
+  border-radius: 22px;
+}
+.selectbck{
+  background: #fff;
+  border:none;
+  color:gray;
+  box-shadow:none;border-radius: 22px;
+}
+.btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle,.show>.btn-secondary.dropdown-toggle, .btn-secondary:hover, .btn-secondary:focus {
+  color: #fff;
+  background-color: #fff;
+  border:none;
+  color:gray;
+  box-shadow:0;
+}
+.btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus{box-shadow:none;}
+.logostyles{width: 70px}
+.logostyless{width: 90px;padding: 20px 0;}
+.textbottom{padding-bottom: 15px;}
+
+/*tab*/
+h4.card-title {
+margin: 0;
+font-family: "Open Sans";
+font-size: 1rem;
+}
+
+.card-header {
+padding: 0;
+}
+
+.fulltruck{color: #697397; font-size: 12px}
+.iconboxpadding{position: relative; padding-right: 5.5vh; }
+@media only screen and (min-width : 321px) and (max-width : 600px) {
+.inputtxt {
+font-size: 14px;
+margin-top: 10px;
+}
+}
+
+.roadtab{width: 60px;}
+@media only screen and (min-width : 768px) and (max-width : 1023px) {
+  .bckmargin{height: 252px;}
+.tracking {
+border: none;
+font-size: 12px;
+border-radius: 20px;
+height: calc(1.25rem + 0px);
+}
+.localitiestext{font-size: 11px; line-height: 10px}
+.inputtxt {
+font-size: 11px;
+}
+.selectbck{width: 100px; font-size: 9px; background: transparent }
+.bluecircle1{width: 30px; height: 30px;}
+.bluecircle2{width: 30px; height: 30px;}
+.iconboxpadding {
+  padding-right: 3.6vh;
+}
+.nav-tabs .nav-link {
+  font-size: 11px;
+    padding: 5px 6px;
+    margin-right: 8px;
+}
+.roadtab{width: 40px;}
+.modespara {
+  font-size: 9px;
+  letter-spacing: -0.6px;
+}
+.greencircle {
+  width: 35px;
+  height: 35px;
+}
+.roadicon {
+  right: 55px;
+  width: 15px;
+  height: 15px;
+}
+.fulltruck{color: #697397; font-size: 10px}
+.form-control{height: calc(2.3rem + 0px);}
+p{
+  font-size: 10px;
+}
+}
+
+
+@media only screen and (max-width : 320px) {
+       
+}
+
+@media only screen and (min-width : 321px) and (max-width : 600px) {
+
+}
+@media only screen and (min-width : 600px) and (max-width : 800px) {
+
+}
+@media only screen and (min-width : 801px) and (max-width : 1024px) {
+  .nav-tabs .nav-link{font-size: 10px;}
+  .greencircle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .roadicon {
+    position: absolute;
+    top: 4px;
+    right: 59px;
+    width: 15px;
+    height: 15px;
+  }
+  .fulltruck {
+    font-size: 11px;
+  } 
+  p{font-size: 12px;}
+  .rightsideicon{top: 16vh}
+}
+@media  screen and (min-width: 1366px) and (max-width: 1398px) {
+  .closebtn{top: 7px;}
+  .dotbg{background-position: 33% 5%;}
+  .modespara{font-size: 13px;}
+  .username {height: 31px!important;}
+  .dotbg{margin: -3vh auto 0 auto;}
+  .rightsideicon{top: 19vh;}
+  .roadsty{margin-top:4vh!important}
+  .bckmargin,.bckmargin_1,.bckmargin_2,.bckmargin_3{padding:30px;}
+  h6{font-size: 3vh}
+  .form-control{height: calc(2.6rem + 0px);}
+  .nav-tabs .nav-link{
+    text-align: center;
+    margin-right: 9px;
+    font-size: 16px;
+    padding: 5px 23px!important;
+  }
+
+  .iconboxpadding {
+    padding-right: 11vh;
+}
+.greencircle{
+  width: 65px;
+    height: 65px;
+}
+.roadicon{right:73px;}
+.bckmargin{margin-top: 7vh; height: 356px;}
+.bluecircle1,.bluecircle2{float:right}
+.search{    padding: 9px 20px;}
+.dropdown{padding: 3px 0;}
+.modespara1{font-size: 13px;}
+  
+}
+@media  screen and (min-width : 1200px) and (max-width: 1280px) {
+  .nav-tabs .nav-link{margin-right:15px}
+  h6 {
+    font-size: 2.5vh;
+  }
+  .modespara {
+    font-size: 13px;
+  }
+  .iconboxpadding {
+    padding-right: 6.8vh;
+  }
+  .roadicon{
+    right: 67px;
+  }
+}
+@media  screen and (min-width: 1399px) and (max-width: 1400px) {
+
+}
+@media  screen and (min-width: 1401px) and (max-width: 1440px) {
+  .logostyles{margin-left: 4vh;}
+  .rightsideicon{top: 15vh;}
+  .bckmargin{margin-top: 8vh;}
+  h6{font-size: 3vh}
+  .form-control{height: calc(2.25rem + 0px);}
+  .nav-tabs .nav-link{
+    text-align: center;
+    margin-right: 9px;
+    font-size: 13px;
+    padding: 5px 40px!important;
+  }
+
+  .iconboxpadding {
+    padding-right: 11vh;
+}
+.greencircle{
+  width: 65px;
+    height: 65px;
+}
+.roadicon{right:86px;}
+
+}
+@media  screen and (min-width:1550px) and (max-width:1600px) {
+
+}
+
+@media  screen and (min-width:1601px) and (max-width: 1680px) {
+  .nav-tabs .nav-link{
+    text-align: center;
+    margin-right: 9px;
+    font-size: 13px;
+    padding: 5px 55px!important;
+  }
+}
+
+@media  screen and (min-width: 1800px)  and (max-width: 1920px){
+  h6{font-size: 28px;}
+  .bluecircle1{float:right}
+  .bluecircle2{float:right}
+  .nav-tabs .nav-link{
+    text-align: center;
+    margin-right: 45px;
+    font-size: 16px;
+    
+
+    
+    
+    height: 44px;
+    padding: 8px 37px;
+  }
+  .iconboxpadding{padding-right: 14.4vh;}
+  .greencircle{width: 80px;
+    height: 80px;}
+    .roadicon{right: 117px;}
+    .roadtab {
+      width: 75px;
+  }
+  .form-control{
+    height: calc(2.7rem + 0px);
+  }
+  .dropdown {
+    height: 45px;
+    padding-top: 5px;
+}
+.search {
+  
+  padding: 10px 35px;
+  font-size: 16px;
+}
+.go {
+  
+  padding: 4px 40px;
+  font-size: 15px;
+  
+}
+.navdot {
+  width: 30px;
+  height: 30px;
+  
+  border-radius: 20px;
+  margin-top: -3px;
+  
+  font-weight: bold;
+}
+.nav-link{font-weight: 600}
+.navsmalldot{
+  width: 14px;
+  height: 14px;
+  border-radius: 20px;
+  background: #fff;
+  position: absolute;
+  top:10px;
+  right:27px;
+}
+.logostyles{margin-left: 4vh;}
+.padlt{
+  padding-left: 0;
+  padding-top: 3px;
+}
+.modespara{font-size: 16px;}
+.road {
+  font-weight: bold;
+  font-size: 20px;
+}
+.modespara1 {
+  font-size: 14px;
+  color: #697397;
+}
+.bckmargin {
+  margin-top: 5.9vh;
+  padding: 30px 40px;
+  height: 370px;
+}
+.bckmargin_1{
+  margin-top: 6vh;
+  padding: 30px 40px;
+}
+.bckmargin_2{ padding: 30px 40px;}
+.bckmargin_3{background: #fff; margin-top: 2vh; padding: 30px 40px; }
+.rightsideicon{top:13vh;}
+.tracking{margin:5px 0 }
+
+h5.bck{    padding: 14px 0;}
+}
+
